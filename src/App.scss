@@ -1,3 +1,19 @@
-.starter {
+.App {
   font-size: 18px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  &__nav{
+    margin: 20px;
+  }
+
+  &__language {
+    margin-bottom: 20px;
+  }
+
+  &__input {
+    margin-bottom: 20px;
+  }
 }

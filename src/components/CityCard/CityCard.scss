@@ -1,0 +1,111 @@
+.card {
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: rgba(238, 237, 237, 0.438);
+  border-radius: 1.5rem;
+  border-color: rgba(238, 237, 237, 0.438);
+
+  &__warm {
+    background: linear-gradient(to right, #fff 10%, rgba(236, 206, 145, 0.897));
+  }
+
+  &__cold {
+    background: linear-gradient(to right, #fff 10%, rgba(80, 119, 165, 0.692));
+  }
+
+  &__header {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__title {
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__date {
+    font-size: 10px;
+  }
+
+  &__image {
+    margin-right: 10px;
+    width: 40px;
+  }
+
+  &__body {
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__temp {
+    margin-left: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &__info {
+    margin-right: 10px;
+    font-size: 15px;
+  }
+
+  &__weather {
+    display: flex;
+    margin-right: 10px
+  }
+
+  &__weatherMain {
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+  }
+
+  &__tempItem {
+    width: 45px;
+  }
+
+  &__c {
+    cursor: pointer;
+    margin-right: 5px;
+  }
+
+  &__f {
+    cursor: pointer;
+  }
+
+  &__tempBreak {
+    margin-right: 5px;
+  }
+
+  &__infoValue {
+    color: #004ac2;
+  }
+
+  &__tempInfo {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__tempCF {
+    display: flex;
+  }
+
+  &__weatherMain {
+    margin-right: 35px;
+  }
+
+  &__tempFeelsLike {
+    margin-top: 3px;
+    font-size: 12px;
+    opacity: 40%;
+  }
+
+  &__close {
+    cursor: pointer;
+  }
+}
