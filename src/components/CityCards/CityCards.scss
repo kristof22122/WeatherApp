@@ -1,0 +1,13 @@
+.Cards {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  max-width: 1200px;
+
+
+  &__item {
+    margin: 5px;
+    width: 350px;
+    height: 200px;
+  }
+}
